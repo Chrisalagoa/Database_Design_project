@@ -31,7 +31,7 @@ CREATE TABLE `albums` (
   `Album_id` int(11) NOT NULL,
   `Title` varchar(50) DEFAULT NULL,
   `Artist_id` int(11) DEFAULT NULL
-  'Genre' varchar(50) default NULL
+  'Genre' varchar(100) default NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
